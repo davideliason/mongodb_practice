@@ -15,7 +15,7 @@ describe('Reading users out of mongod db', () => {
             name: "Joe"
         })
             .then((users) => {
-                console.log(users);
+                assert(users[0]._id.toString() === joe._id.toString());
                 done();
             });
     });

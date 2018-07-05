@@ -4,7 +4,7 @@
   "description": "mongodb and mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nodemon --exec 'mocha -R'",
   },
   "author": "David Eliason",
   "license": "MIT",
