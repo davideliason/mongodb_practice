@@ -25,4 +25,7 @@ describe('Updating records', () => {
         assertName(joe.save(), done);
     });
 
+    it('A module instance can update', (done) => {
+        assertName(joe.update({ name: 'Alex' }), done);
+    });
 });
