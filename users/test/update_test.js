@@ -28,4 +28,18 @@ describe('Updating records', () => {
     it('A module instance can update', (done) => {
         assertName(joe.update({ name: 'Alex' }), done);
     });
+
+    it('A model class can update', (done) => {
+
+    });
+
+    it('A model class can update one record', (done) => {
+
+    });
+
+    it('A model class can find a record with an Id and update', (done) => {
+
+    });
+
+
 });
